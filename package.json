@@ -1,0 +1,33 @@
+{
+  "name": "01-node-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js ",
+    "dev": "nodemon index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anton-Luchkin/01-node-basics.git"
+  },
+  "keywords": [],
+  "author": "Anton Luchkin <luchkin1988@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anton-Luchkin/01-node-basics/issues"
+  },
+  "homepage": "https://github.com/Anton-Luchkin/01-node-basics#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "yargs": "^16.1.1"
+  }
+}
